@@ -21,7 +21,7 @@ const correctUsername = /^[\u0020-\u007E\u00A0-\u00FF]+$/;
 const userResult = correctUsername.test(Username)
 
 
-const correctpassword =  //update
+const correctpassword = /^[A-Za-z]+$/
 const passwordResult = correctpassword.test(password)
 
 const containsNumber = /\d/;
