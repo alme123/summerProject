@@ -17,11 +17,11 @@ var Age = document.getElementById("גיל").value
 const correctEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const emailResult = correctEmail.test(Email);
 
-const correctUsername = /^[\u0020-\u007E\u00A0-\u00FF]+$/;
+const correctUsername = /^[A-Za-z]+$/ ;
 const userResult = correctUsername.test(Username)
 
 
-const correctpassword = /^[A-Za-z]+$/
+const correctpassword = /[A-Za-z]+/
 const passwordResult = correctpassword.test(password)
 
 const containsNumber = /\d/;
